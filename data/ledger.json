@@ -133,5 +133,14 @@
         "block_tx": "",
         "notes": "Aggregated metrics for round 5",
         "node_accuracies": {}
+    },
+    {
+        "round": 6,
+        "timestamp": "2025-09-24T04:51:49.386180",
+        "global_accuracy": 0.9725000262260437,
+        "ipfs_hash": "",
+        "block_tx": "",
+        "notes": "Aggregated metrics for round 6",
+        "node_accuracies": {}
     }
 ]
