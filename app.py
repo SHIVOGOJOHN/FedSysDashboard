@@ -16,7 +16,7 @@ logging.basicConfig(
     ]
 )
 
-LEDGER = Path('ledger.json')
+LEDGER = Path('data/ledger.json')
 
 # Initialize session state
 if 'last_reset' not in st.session_state:
