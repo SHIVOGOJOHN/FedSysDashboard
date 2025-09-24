@@ -1,1 +1,14 @@
-
+[
+    {
+        "round": 1,
+        "timestamp": "2025-09-24T05:51:51.132429",
+        "global_accuracy": 0.8475000262260437,
+        "ipfs_hash": "Qm46146f7583806de7e851bda649f0b0a80f90da6cbfda",
+        "block_tx": "0xbccb22d9719025f05b4bbb0bdbcacb8aae8e745eec927483492b23360836b222",
+        "notes": "Aggregated metrics for round 1",
+        "node_accuracies": {
+            "e472004b10184f65be5980cf37410a40": 0.8475000262260437,
+            "63893c51e10740d3a14604a5162ee921": 0.8475000262260437
+        }
+    }
+]
