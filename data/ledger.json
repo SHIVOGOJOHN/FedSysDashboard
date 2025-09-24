@@ -1,1 +1,11 @@
- 
+[
+    {
+        "round": 1,
+        "timestamp": "2025-09-24T04:39:48.186190",
+        "global_accuracy": 0.6386666695276896,
+        "ipfs_hash": "",
+        "block_tx": "",
+        "notes": "Aggregated metrics for round 1",
+        "node_accuracies": {}
+    }
+]
