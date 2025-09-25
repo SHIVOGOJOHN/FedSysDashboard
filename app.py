@@ -264,7 +264,7 @@ with placeholder.container():
 # Live update loop
 if st.session_state.auto_refresh:
     while True:
-        time.sleep(1) # Refresh interval
+        time.sleep(5) # Refresh interval
         df = get_cached_data()
         with placeholder.container():
             render_dashboard_content(df, rounds_to_show)
