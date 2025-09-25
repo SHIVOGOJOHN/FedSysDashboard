@@ -128,7 +128,15 @@ def get_cached_data():
     ledger = load_ledger()
     return ledger_to_df(ledger)
 
-
+# Sidebar controls
+#with st.sidebar:
+    #st.header("Controls")
+    
+    #st.session_state.auto_refresh = st.checkbox("Auto-refresh", value=st.session_state.auto_refresh)
+    
+    # Add a slider to control the number of rounds to display
+    #rounds_to_show = st.slider("Recent Rounds", 10, 100, 30)
+    
 # --- Dashboard Rendering ---
 def render_dashboard_content(df, rounds_to_show):
     """Renders the main dashboard content."""
@@ -255,6 +263,8 @@ def render_dashboard_content(df, rounds_to_show):
 
 # --- Main App Logic ---
 placeholder = st.empty()
+
+rounds_to_show = 10
 
 # Initial render
 df = get_cached_data()
